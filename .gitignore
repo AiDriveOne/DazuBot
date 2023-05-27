@@ -1,0 +1,153 @@
+file.txt                # Ignore a specific file
+*.log                   # Ignore all files with the .log extension
+secret.key              # Ignore a sensitive file containing a secret key
+logs/                   # Ignore the entire "logs" directory
+dir/*.txt               # Ignore all .txt files within a specific directory
+*.csv                   # Ignore all files with the .csv extension
+*.pyc                   # Ignore all compiled Python files
+*.swp                   # Ignore Vim swap files
+node_modules/           # Ignore the entire "node_modules" directory
+vendor/                 # Ignore the entire "vendor" directory
+temp*                   # Ignore files starting with "temp"
+*.tmp                   # Ignore all files with the .tmp extension
+!important.txt          # Include the file "important.txt" even if it matches a previous pattern
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+.Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven target directory
+target/
+
+# IntelliJ IDEA project files
+.idea/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# NetBeans project files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Gradle project files
+.gradle/
+build/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Built artifacts
+dist/
+build/
+out/
+
+# TypeScript output directory
+*.tsbuildinfo
+
+# IntelliJ project files
+.idea/
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Mac files
+.DS_Store
